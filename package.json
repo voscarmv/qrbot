@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "@voscarmv/aichatbot": "^1.0.17",
-    "@voscarmv/aitoolcache": "^1.0.3",
+    "@voscarmv/aitoolcache": "^1.1.3",
     "@voscarmv/files-aitool": "^1.0.0",
     "@voscarmv/qr-aitool": "^1.0.2",
     "axios": "^1.13.2",
