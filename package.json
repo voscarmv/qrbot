@@ -1,0 +1,33 @@
+{
+  "name": "qrbot",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/voscarmv/qrbot#readme",
+  "bugs": {
+    "url": "https://github.com/voscarmv/qrbot/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/voscarmv/qrbot.git"
+  },
+  "license": "GPL-3.0-or-later",
+  "author": "",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@voscarmv/aichatbot": "^1.0.17",
+    "@voscarmv/aitoolcache": "^1.0.3",
+    "@voscarmv/files-aitool": "^1.0.0",
+    "@voscarmv/qr-aitool": "^1.0.2",
+    "axios": "^1.13.2",
+    "dotenv": "^17.2.3",
+    "grammy": "^1.39.2",
+    "typescript": "^5.9.3"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.3"
+  }
+}
