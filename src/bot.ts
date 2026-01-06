@@ -16,6 +16,6 @@ export const aiClient = new OpenAiClient({
     apiKey: process.env.DEEPSEEK_KEY,
     model: 'deepseek-chat',
     instructions: 'You are a helpful assistant.',
-    additionalInstructions,
+    // additionalInstructions,
     tools, functions
 });

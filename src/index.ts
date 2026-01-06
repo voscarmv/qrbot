@@ -1,6 +1,7 @@
-import { aiClient, aicache } from "./bot.js";
-import { messageStore } from "./api.js";
 import { ChatService } from "@voscarmv/aichatbot";
+import { aicache } from "@voscarmv/aitoolcache";
+import { aiClient } from "./bot.js";
+import { messageStore } from "./api.js";
 import { Bot, InputFile } from "grammy";
 import axios from 'axios';
 import "dotenv/config";
